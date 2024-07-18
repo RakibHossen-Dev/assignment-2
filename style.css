@@ -101,7 +101,10 @@ header {
 }
 .banner-image img {
   margin-top: -20px;
-  margin-right: 70px;
+  margin-right: 50px;
+}
+.banner-image {
+  position: relative;
 }
 .banner-image .card-one {
   width: 206px;
@@ -113,8 +116,8 @@ header {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  position: relative;
-  top: -160px;
+  position: absolute;
+  bottom: 65px;
   left: -100px;
 }
 .card-one h4 {
@@ -138,14 +141,56 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: relative;
-  top: -550px;
-  right: -250px;
+  position: absolute;
+  top: 110px;
+  right: -20px;
 }
 .card-two h3 {
   color: rgb(255, 255, 255);
   font-size: 40px;
   font-weight: 800;
+}
+
+/* habits-content */
+.habits-section {
+  margin-top: 0;
+}
+.habits-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.habits-content h3 {
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+.habits-content p {
+  text-align: center;
+  font-size: 0.9rem;
+}
+.image-container {
+  margin-top: 40px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+}
+.image-container img {
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+.image-container h4 {
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+.image-content-1,
+.image-content-2,
+.image-content-3,
+.image-content-4 {
+  text-align: center;
 }
 @media screen and (max-width: 576px) {
   .ham-barger {
@@ -162,12 +207,15 @@ header {
     justify-content: space-between;
     gap: 30px;
   }
+  .banner-image img {
+    margin-right: 0px;
+  }
   .banner-image .card-two {
     width: 145px;
     padding: 10px;
     height: 80px;
-    top: -630px;
-    right: -200px;
+    top: 30px;
+    right: 30px;
   }
   .card-two h3 {
     font-size: 30px;
@@ -179,7 +227,7 @@ header {
     width: 150px;
     padding: 10px;
     height: 80px;
-    top: -330px;
+    top: 200px;
     left: 10px;
   }
   .banner-image img {
@@ -202,5 +250,23 @@ header {
     color: rgb(255, 255, 255);
     font-size: 2.3rem;
     margin-bottom: 28px;
+  }
+  .image-container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 50px;
+  }
+  .habits-content h3 {
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  .habits-content p {
+    margin-bottom: 30px;
+  }
+
+  .image-container img {
+    margin-bottom: 25px;
   }
 }
