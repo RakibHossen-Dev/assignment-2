@@ -192,6 +192,42 @@ header {
 .image-content-4 {
   text-align: center;
 }
+/* Run an Extra Mile Easily */
+.run {
+  display: flex;
+  gap: 20px;
+  border-radius: 18px;
+  background: rgb(34, 34, 34);
+  justify-content: space-between;
+}
+.run-content {
+  padding: 40px;
+  width: 50%;
+}
+.run-content h3 {
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 18px;
+}
+.run-content p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 40px;
+}
+.run-image {
+  width: 50%;
+}
+.run-image {
+  padding: 30px;
+}
+.run-image img {
+  width: 100%;
+  border-radius: 16px;
+}
+
 @media screen and (max-width: 576px) {
   .ham-barger {
     display: block;
@@ -268,5 +304,24 @@ header {
 
   .image-container img {
     margin-bottom: 25px;
+  }
+  .run {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .run-image {
+    width: 100%;
+    padding: 20px 30px;
+  }
+  .run-content {
+    width: 100%;
+    padding: 20px 40px;
+  }
+  .run-btn {
+    width: 80%;
+  }
+  .run-button {
+    display: flex;
+    justify-content: center;
   }
 }
