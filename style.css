@@ -333,6 +333,46 @@ select {
   width: 100%;
   margin-bottom: 50px;
 }
+
+/* Meet Our Team style */
+.team-image-container {
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.1);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+  margin-top: 50px;
+}
+.team-image-content {
+  position: relative;
+}
+.trainer-name {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+.trainer-name h5 {
+  font-size: 1rem;
+}
+.trainer-name p {
+  text-align: left;
+}
+.our-team-section h3 {
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 14px;
+  text-align: center;
+}
+.our-team-section .team-description {
+  text-align: center;
+}
+.team-image-content img {
+  width: 100%;
+  height: 300px;
+  border-radius: 18px;
+}
 @media screen and (max-width: 576px) {
   .ham-barger {
     display: block;
@@ -451,5 +491,14 @@ select {
   }
   table {
     margin-bottom: 10px;
+  }
+  .team-image-container {
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    padding: 20px;
+    margin-top: 50px;
   }
 }
