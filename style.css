@@ -1,1 +1,206 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter;
+}
+body {
+  background-color: rgb(17, 17, 17);
+}
+/* shared style */
+.btn-parimary {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  border-radius: 42px;
+  background: rgb(230, 83, 60);
+  border: none;
+  padding: 10px 30px;
+}
+p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 16px;
+  font-weight: 400;
+}
+.container {
+  width: 90%;
+  margin: 4rem auto;
+}
+header {
+  background: linear-gradient(
+    180deg,
+    rgb(17, 17, 17),
+    rgba(119, 119, 119, 0) 100%
+  );
+}
+/* navbar style */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation-menu {
+  display: flex;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 39px;
+  padding: 9px 15px;
+  padding-left: 0;
+}
+.navigation-menu li {
+  list-style: none;
+  margin-right: 30px;
+}
+.navigation-menu li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 400;
+}
+.logo {
+  color: rgb(230, 83, 60);
+  font-size: 2.2rem;
+  font-weight: 800;
+  font-style: italic;
+}
+.home-menu {
+  background: rgb(230, 83, 60);
+  border-radius: 46px;
+  padding: 8px 20px;
+}
+.ham-barger {
+  color: #fff;
+  font-size: 24px;
+  display: none;
+}
+.dwonload-btn {
+  background: none;
+  border: 1px solid #ddd;
+}
+/* banner style */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.banner-content {
+  margin-top: 25px;
+}
+.banner-content h3 {
+  color: rgb(255, 255, 255);
+  font-size: 4.5rem;
+  margin-bottom: 28px;
+}
+.banner-content p {
+  margin-bottom: 23px;
+}
+.shape {
+  font-family: "Dancing Script", cursive;
+}
+.banner-image img {
+  margin-top: -20px;
+  margin-right: 70px;
+}
+.banner-image .card-one {
+  width: 206px;
+  height: 96px;
+  background: rgba(48, 48, 48, 0.54);
+  backdrop-filter: blur(20px);
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  top: -160px;
+  left: -100px;
+}
+.card-one h4 {
+  color: rgb(250, 250, 249);
+  font-size: 24px;
+  font-weight: 800;
+}
+.play {
+  color: #fff;
+  background: red;
+  padding: 10px 15px;
+  border-radius: 50%;
+}
+.banner-image .card-two {
+  width: 192px;
+  height: 97px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -550px;
+  right: -250px;
+}
+.card-two h3 {
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  font-weight: 800;
+}
+@media screen and (max-width: 576px) {
+  .ham-barger {
+    display: block;
+  }
+  .navigation-menu {
+    display: none;
+  }
+  .navbar {
+    margin-top: 30px;
+  }
+  .banner {
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  .banner-image .card-two {
+    width: 145px;
+    padding: 10px;
+    height: 80px;
+    top: -630px;
+    right: -200px;
+  }
+  .card-two h3 {
+    font-size: 30px;
+  }
+  .card-two p {
+    text-align: center;
+  }
+  .banner-image .card-one {
+    width: 150px;
+    padding: 10px;
+    height: 80px;
+    top: -330px;
+    left: 10px;
+  }
+  .banner-image img {
+    margin-right: 0px;
+  }
+  .btn-parimary {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    border: none;
+    padding: 10px 15px;
+    margin: 10px;
+  }
+  .dwonload-btn {
+    background: none;
+    border: 1px solid #ddd;
+  }
+  .banner-content h3 {
+    color: rgb(255, 255, 255);
+    font-size: 2.3rem;
+    margin-bottom: 28px;
+  }
+}
