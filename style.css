@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+@import url("https://fonts.cdnfonts.com/css/miama");
 
 * {
   margin: 0;
@@ -106,7 +106,7 @@ header {
   margin-bottom: 23px;
 }
 .shape {
-  font-family: "Dancing Script", cursive;
+  font-family: "Miama", sans-serif;
 }
 .banner-image img {
   margin-top: -20px;
@@ -408,7 +408,8 @@ select {
 }
 .team-image-content img {
   width: 100%;
-  height: 350px;
+  /* height: 350px; */
+  height: 100%;
   border-radius: 18px;
 }
 /* OUR PRICING PLAN */
