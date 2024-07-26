@@ -564,6 +564,9 @@ select {
   .banner-image img {
     margin-right: 0px;
   }
+  .banner-image {
+    margin-bottom: -2px;
+  }
   .btn-parimary {
     color: rgb(255, 255, 255);
     font-size: 1rem;
@@ -610,7 +613,7 @@ select {
   }
   .run-content {
     width: 100%;
-    padding: 20px 40px;
+    padding: 20px 30px;
   }
   .run-btn {
     width: 80%;
@@ -652,6 +655,9 @@ select {
     gap: 20px;
     padding: 20px;
     margin-top: 50px;
+  }
+  .team-image-content img {
+    height: 290px;
   }
   .price-card {
     display: grid;
