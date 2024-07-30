@@ -541,6 +541,9 @@ select {
     left: 50%;
     transform: translate(-50%, -50%);
   }
+  .Club {
+    display: none;
+  }
   .banner-image .card-two {
     width: 145px;
     padding: 10px;
@@ -567,17 +570,21 @@ select {
   .banner-image {
     margin-bottom: -2px;
   }
+  .btn-parent {
+    text-align: center;
+  }
   .btn-parimary {
     color: rgb(255, 255, 255);
     font-size: 1rem;
     border-radius: 42px;
     background: rgb(230, 83, 60);
     border: none;
-    padding: 10px 15px;
+    padding: 10px 25px;
     margin: 5px;
   }
   .dwonload-btn {
     background: none;
+    padding: 10px 15px;
     border: 1px solid #ddd;
   }
   .banner-content h3 {
@@ -646,6 +653,11 @@ select {
   }
   table {
     margin-bottom: 10px;
+  }
+  table,
+  th,
+  td {
+    padding: 20px 30px;
   }
   .team-image-container {
     border-radius: 18px;
@@ -751,7 +763,9 @@ select {
   .team-image-container {
     grid-template-columns: repeat(2, 1fr);
   }
-
+  .team-image-content img {
+    height: 290px;
+  }
   .price-card {
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
