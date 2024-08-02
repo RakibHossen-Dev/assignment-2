@@ -305,7 +305,15 @@ h5 {
   background-color: rgb(94, 94, 177);
 }
 /*  BMI Calculator style*/
-
+.bmi-heading {
+  text-align: center;
+}
+.bmi-heading h3 {
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 14px;
+}
 .calculator-section {
   background: rgb(34, 34, 34);
 }
@@ -642,6 +650,12 @@ select {
   .calculator-content {
     flex-direction: column;
     gap: 2px;
+  }
+  .bmi-heading {
+    text-align: start;
+  }
+  .bmi-heading h3 {
+    font-size: 2rem;
   }
   .bmi-btn {
     width: 70%;
