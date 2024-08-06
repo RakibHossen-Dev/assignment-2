@@ -602,6 +602,9 @@ select {
     grid-template-columns: repeat(1, 1fr);
     gap: 50px;
   }
+  .habits-section {
+    margin-top: -55px;
+  }
   .habits-content h3 {
     color: rgb(255, 255, 255);
     font-size: 2rem;
