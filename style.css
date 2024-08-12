@@ -31,13 +31,6 @@ p {
   margin: 4rem auto;
 }
 
-header {
-  background: linear-gradient(
-    180deg,
-    rgb(17, 17, 17),
-    rgba(119, 119, 119, 0) 100%
-  );
-}
 /* navbar style */
 .navbar {
   display: flex;
@@ -88,10 +81,20 @@ header {
   gap: 30px;
 }
 .banner-color {
-  background: linear-gradient(
-    180deg,
-    rgb(17, 17, 17),
-    rgba(119, 119, 119, 0.2) 100%
+  background-image: linear-gradient(
+    to top,
+    #111111,
+    #161616,
+    #1a1a1b,
+    #1d1e1f,
+    #212224,
+    #212224,
+    #212224,
+    #212224,
+    #1d1e1f,
+    #1a1a1b,
+    #161616,
+    #111111
   );
 }
 .banner-content {
@@ -107,6 +110,7 @@ header {
 }
 .shape {
   font-family: "Miama", sans-serif;
+  font-size: 6rem;
 }
 .banner-image img {
   max-width: 100%;
@@ -563,6 +567,9 @@ select {
     padding: 10px 15px;
     border: 1px solid #ddd;
   }
+  .shape {
+    font-size: 3rem;
+  }
   .Club {
     display: none;
   }
@@ -742,7 +749,7 @@ select {
     gap: 50px;
   }
   .run-image {
-    width: 40%;
+    width: 50%;
     padding-left: 0;
   }
   .run {
