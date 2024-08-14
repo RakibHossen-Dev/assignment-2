@@ -639,6 +639,12 @@ select {
     width: 100%;
     padding: 20px 30px;
   }
+  .run-content h3,
+  .our-team-section h3,
+  .price-plan-content h3,
+  .trainings-section h3 {
+    font-size: 2rem;
+  }
   .run-btn {
     width: 100%;
   }
